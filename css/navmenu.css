@@ -1,0 +1,50 @@
+.nav-list {
+  margin-top: 140px;
+margin-left: -35px;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+            .nav-list ul {
+  list-style-type: none;
+}
+.nav-list li a {
+  color: #000;
+}
+.nav-list li a:hover{
+    color: #565555;
+    text-decoration: none;
+}
+.nav-list li {
+  padding: 10px;
+  background: none;
+  color: #000;
+  font-family: "Roboto",sans-serif;
+}
+.nav-list li:hover {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+                
+#close-nav {font-size: 50px; color:#000;}
+
+@media screen and (max-width:480px) {
+    #close-nav {
+        font-size: 30px;
+        margin-right: -30px;
+    }
+}
+
+#btn-close-modal {
+float:right;
+margin: 35px 75px 0 0;
+cursor:pointer;
+color:#000;
+}
+                
+                
+
+/*============== hamburger ================*/
