@@ -1,0 +1,763 @@
+/* VLAIKOV WEB DEVELOPMENT AND DESIGN */
+
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*** Common browsers ***/
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #000;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #000;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #000;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Navigation for Desktop */
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+nav ul a:visited, nav ul a:active, nav ul a:focus {
+    color: #979797;
+}
+
+nav {
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    float: right;
+    padding-top: 15px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li:not(:last-child) {
+    padding-right: 10px;
+}
+
+nav li a {
+    color: #979797;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+nav img, nav ul {
+    display: inline;
+}
+
+nav .hamburger {
+    float: right;
+    font-size: 27px;
+    padding-top: 4px;
+}
+
+nav .hamburger a {
+    color: #000;
+}
+
+nav .hamburger a:hover {
+    color: gray;
+}
+
+
+
+/* BANNER */
+
+#banner {
+	height:700px;
+}
+
+.banner-text {
+	color: #000;
+	font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 180px;
+}
+
+
+.first-banner-text {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 42px;
+    padding-top: 60px;
+}
+.second-banner-text {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 20px;
+    padding-bottom: 25px;
+}
+
+/* BUTTON */
+
+.banner-text a {
+    padding: 5px 40px;
+    border: 1px solid #ef4438;
+    background-color: #ef4438;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+.banner-text a:hover {
+    background-color: #dd3f34;
+}
+
+.banner-text #test-link {
+    background-color: #fff;
+    color: #000;
+    font-weight: 400;
+    padding: 5px 25px;
+    border: 1px solid #000;
+    margin-left: 15px;
+}
+
+#test-link:hover {
+    background-color: #fcfcfc;
+    color: #000;
+    border-color: #000;
+}
+
+
+
+/* END BANNER */
+
+
+#about-us {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	padding-top: 100px;
+}
+.about-us-title {
+	font-weight: 500;
+	font-size: 24px;
+}
+.about-us-text {
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: -10px;
+	color: #979797;
+    padding-bottom: 50px;
+}
+
+#about-us #milica a, #about-us #milan a {
+    padding: 5px 40px;
+    border: 1px solid #6fda44;
+    background-color: #6fda44;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
+
+#about-us #milica a:hover, #about-us #milan a:hover {
+    background-color: #58ae35;
+    border-color: #58ae35;
+}
+
+.milica-title, .milan-title  {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 30px;
+	color: #000;
+}
+.milica-text, .milan-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	color: #979797;
+	font-size: 14px;
+	margin-top: -13px;
+    padding-bottom: 5px;
+}
+
+#about-us-text2 {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #aeaeae;
+	margin-top: 70px;
+    padding-bottom: 100px;
+}
+#about-us-text2 img {
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+
+
+/* -------------------------------PORTFOLIO */
+
+
+/* WHAT WE ACTUALLY DO - PORTFOLIO */
+
+#what-we-do {
+    padding-top: 100px;
+}
+
+		#button-close { }
+		#button-close .material-icons {font-size: 36px; float: right;}
+
+           #btn-close-modal {
+                width:100%;
+                text-align: right;
+                cursor:pointer;
+                color:#000;
+            }
+
+            #modal-02 .row {margin-bottom: 25px;}
+            #modal-03 .row {margin-bottom: 25px;}
+            #modal-04 .row {margin-bottom: 25px;}
+            #modal-05 .row {margin-bottom: 25px;}
+            #modal-06 .row {margin-bottom: 25px;}
+            #modal-07 .row {margin-bottom: 25px;}
+            #modal-08 .row {margin-bottom: 25px;}
+            #modal-09 .row {margin-bottom: 25px;}
+
+            #modal_title {font-family: "Roboto", sans-serif; text-align: center; margin-bottom: 25px;}
+            #modal_title h4 {font-size: 24px; font-weight: 500;}
+            #modal_title p {font-size: 14px; color: #979797; font-weight: 500; line-height: 5px; padding-bottom: 25px;}
+
+            #flyer_bottom_space {margin-bottom: 25px;}
+            
+            
+            #giants_live {background-color: #ebebeb;}
+            #giants_bottom {margin-top: 25px; position: relative; z-index: 999}
+            #giants_bottom_one {max-width: 780px; margin-top: -19px;}
+            #giants_bottom_two {max-width: 780px; margin-top: 30px;}
+            #giants_bottom_three {margin-top: -220px;}
+            #giants_bottom_four {max-width: 780px;}
+            #giants_bottom_five {max-width: 780px; margin-top: -25px;}
+
+            #crazy_bottom_three {margin-top: -50px;}
+
+            #delroy_one {max-width: 780px; margin-top: 25px;}
+
+            #shinetime_one {max-width: 780px; margin-top: -130px;}
+            #shinetime_two {max-width: 780px;}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------- END PORTFOLIO */
+
+
+.what-do-title {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #000;
+}
+.what-do-text {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #979797;
+	margin-top: -10px;
+	margin-bottom: 65px;
+}
+
+#what-do-image p {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #000;
+	background-color: #ebebeb;
+	padding: 6px;
+}
+
+
+
+
+
+
+
+/* 00000000000000000 */
+
+#howthisworks {
+    padding-bottom: 100px;
+}
+
+#how-this-works {
+    padding-top: 100px;
+}
+
+.how-this-title {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.how-this-text {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: -10px;
+	margin-bottom: 75px;
+	color: #979797;
+}
+#how-this-gif img {
+	max-height: 100%;
+	margin-top: -60px;
+}
+
+.find-title {
+	margin-top: 10px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #000;
+}
+.find-text {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #656565;
+	margin-bottom: 25px;
+}
+
+@media only screen and (max-width : 768px) {
+	#how-this-gif img {margin: 0}
+	.how-this-text {margin-bottom: 50px;}
+}
+#how-this-links a {
+	color: #000
+}
+
+#youtube_upwork:hover {
+	color: #4e9630 !important;
+}
+
+#how-this-links a, #how-this-links a:visited, #how-this-links a:hover, #how-this-links a:active {
+    text-decoration:none;
+}
+/* testemonials */
+
+#testemonials {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.testemonials-image {
+	text-align: center;
+}
+.testemonials-title {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #000;
+}
+.testemonials-text {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #979797;
+	margin-top: -10px;
+}
+
+.client-text {
+	text-align: justify;
+	color: #979797;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.second-hr {
+	margin: 0 auto;
+}
+.client-text2 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14;
+	color: #000;
+	text-align: center;
+	margin-top: 15px;
+}
+.client-text3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 11px;
+	color: #adadad;
+	text-align: center;
+	margin-top: -13px;
+}
+
+#testemonials img {
+	margin-top: 70px;
+}
+
+.contact-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #000;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.contact-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #979797;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 65px;
+}
+
+
+/* added links */
+#testemonials a {
+    color: #6fda44;
+}
+
+
+
+/* NEW FOLDER CODE */
+
+/*Portfolio SECTION
+======================*/
+*{box-sizing: border-box;}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.portfolio-list {
+  padding-top: 0px;
+}
+
+.portfolio-list a {
+	text-align: left;
+}
+
+
+.portfolio-list p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+/*Change small column width from 100% to 50% on mid small devices
+ (for example landscape mobile) to get 2 columns in a row*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .portfolio-list .col-xs-12 {
+	width:50%;
+	float: left;
+  }
+}
+
+.portfolio-box {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto 30px;
+  max-width: 345px;
+}
+
+.portfolio-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  color: #fff;
+  
+}
+.portfolio-overlay, a.portfolio-overlay, a.portfolio-overlay:hover, a.portfolio-overlay:focus, a.portfolio-overlay:active {	
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  line-height: 1em;
+  font-size: 30px;
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+.portfolio-overlay .arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;	
+  font-size: 34px;
+}
+.overlay-slide-in-bottom .portfolio-content {
+  transition: all 0.3s ease-in-out;
+}
+.overlay-slide-in-bottom .portfolio-overlay {
+  transform: translateY(110%);
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+.overlay-slide-in-bottom:hover .portfolio-overlay {
+  transform: translateX(0px);
+}
+.overlay-slide-in-bottom:hover .portfolio-content {
+  transform: translateY(-100%);
+  transition-delay: 0.05s;
+}
+
+/*overlay colors*/
+.overlay-color {
+ background-color: #f44236;
+}
+
+/*webpages*/
+.portfolio-box2 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto 30px;
+  max-width: 940px;
+}
+
+.portfolio-list2 {
+  padding-top: 0px;
+}
+
+.portfolio-list3 {
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+
+.portfolio-list2 p, .portfolio-list3 p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
+
+
+.portfolio-list .material-icons {float: right; font-size: 36px; margin-top: -2px;}
+.portfolio-list2 .material-icons, .portfolio-list3 .material-icons {float: right; font-size: 36px; margin-top: -2px;}
+
+
+
+
+/* FOOTER */
+
+#shop {
+    padding-top: 100px;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+footer .footer-header {
+    padding-bottom: 50px;
+}
+
+footer .footer-header h5 {
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+footer .footer-header p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #979797;
+    line-height: 5px;
+}
+
+.second-footer {
+    background-color: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.second-footer p {
+    color: #757575;
+    font-weight: 400;
+    line-height: 15px;
+    font-size: 14px;
+}
+
+.second-footer p a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-social {
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+.footer-social a {
+    padding-right: 20px;
+}
+.footer-social a:last-child {
+    padding-right: 0;
+}
+
+.footer-social img {
+    opacity: 0.4;
+}
+.footer-social img:hover {
+    opacity: 1;
+}
+
+#footer-copy {
+    font-size: 12;
+    color: #5e5e5e;
+    font-weight: 600;
+}
+
+
+
+
+
+#folder-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* Media Query */
+@media screen and (min-width:320px) and (max-width:479px) { 
+
+  #logo {margin-left: 25px !important; margin-top: 32px !important;}
+  
+  .first-banner-text {
+  		text-align: center;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 42px;
+		margin-top: 50px;
+		padding: 0 15px 0 15px;
+	}
+	.second-banner-text {
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 20px;
+		padding: 0 15px 25px 15px;
+	}
+	.second-banner-text br {display: none;}
+	#milica {
+			padding-bottom: 50px;
+		}
+	#footer-copy {line-height: 11px; margin-top: 12px;}
+
+	.nav-list {font-size: 20px !important; margin-left: -50px;}
+	#about-us-text2 br {
+    display: none;}
+    #logo-mobile-space {margin-bottom: 25px;}
+    #poster_line_height p {line-height: 14px;}
+    
+    #button-close .material-icons {font-size: 26px;}
+    #modal_title h4 {margin-top: 20px;}
+    
+    #giants_bottom_one {margin-top: -8px;}
+    #giants_bottom_two {margin-top: 15px;}
+            #giants_bottom_three {margin-top: -60px;}
+            #giants_bottom_five {margin-top: -10px;}
+    #shinetime_one {margin-top: -40px;}
+
+
+    .how-this-text {margin-bottom: 0px;}
+
+
+
+}
+
+@media screen and (min-width:480px) and (max-width:639px) { 
+	#logo {margin-left: 25px !important; margin-top: 32px !important;}
+  	
+  	.nav-list {font-size: 20px !important; margin-left: -50px;}
+  	#milica {padding-bottom: 50px;}
+  	#logo-mobile-space {margin-bottom: 25px;}
+  	#shinetime_one {margin-top: -40px;}
+}
+
+@media screen and (min-width:640px) and (max-width:767px) {
+	#milica {padding-bottom: 50px;}
+	#logo-mobile-space {margin-bottom: 25px; margin-left: 55px;}
+	#logo-mobile-space2 {margin-left: 55px;}
+	#shinetime_one {margin-top: -50px;}
+}
+
+@media screen and (max-width:480px) {
+    #button-close {
+        margin-right: -75px;
+    }
+    
+    footer .footer-header p {
+        line-height: normal;
+    }
+}
